@@ -17,17 +17,20 @@ You can view my video of walking you through the project here: https://www.loom.
 - Added the Search functionality as well
 
 
-### How to Run the Application
+## How to Run the Application
 Open terminal and run these commands
-1. **Open Project** cd medley-fe-tech-test
+### 1. Open Project
+**cd medley-fe-tech-test**
 
-2. **NPM Install** npm install
+### NPM Install
+**npm install**
 This will install the required packages to the code
 
-3. **Run The Project** npm run dev
+### Run The Project 
+**npm run dev**
 This will start the project and you can load the project at http://localhost:3000
 
-**Walk Through**
+----**Walk Through**
 Go through this Loom video to see how the application is working, I've tried to keep the edge cases in mind as well.
 
 https://www.loom.com/share/c519a4743fe444f89e03ea8e69808889?sid=fe16ce8b-01a4-405a-9211-dcee00528d9c
