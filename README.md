@@ -20,7 +20,7 @@ You can view my video of walking you through the project here: https://www.loom.
 ## How to Run the Application
 Open terminal and run these commands
 ### 1. Open Project
-**cd medley-fe-tech-test**
+**cd medley-fe**
 
 ### NPM Install
 **npm install :**<br/>
@@ -30,7 +30,7 @@ This will install the required packages to the code
 **npm run dev :**<br/>
 This will start the project and you can load the project at http://localhost:3000
 
-----**Walk Through**<br/>
+**Walk Through**<br/>
 Go through this Loom video to see how the application is working, I've tried to keep the edge cases in mind as well.
 
 https://www.loom.com/share/c519a4743fe444f89e03ea8e69808889?sid=fe16ce8b-01a4-405a-9211-dcee00528d9c
