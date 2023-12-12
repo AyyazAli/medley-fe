@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tech Test Brief
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Hi, I've uploaded the code to the repo and have attached this readme file to walk you thorugh the project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can view my video of walking you through the project here: https://www.loom.com/share/c519a4743fe444f89e03ea8e69808889?sid=fe16ce8b-01a4-405a-9211-dcee00528d9c
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technical Details
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### General
 
-## Learn More
+- The application is built using NextJs With Typescript
+- I'm using Styled Components to develop components and style it properly
+-  I have implemented the pagination using React-paginate
+- Added the Search functionality as well
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### How to Run the Application
+Open terminal and run these commands
+1. **Open Project** cd medley-fe-tech-test
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **NPM Install** npm install
+This will install the required packages to the code
 
-## Deploy on Vercel
+3. **Run The Project** npm run dev
+This will start the project and you can load the project at http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Walk Through**
+Go through this Loom video to see how the application is working, I've tried to keep the edge cases in mind as well.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://www.loom.com/share/c519a4743fe444f89e03ea8e69808889?sid=fe16ce8b-01a4-405a-9211-dcee00528d9c
+
+### API Integration
+
+You will be integrating with an existing API. Here are the details of the endpoints you will need to interact with:
+
+1. **Payouts Endpoint**
+
+   **Endpoint:** `https://theseus-staging.lithium.ventures/api/v1/analytics/tech-test/payouts`
+
+   **Method:** GET
+
+   **Description:** I'm using this endpoint to make the pagination work and using page number & limit as identifiers for the API
+
+3. **Search Endpoint**
+
+   **Endpoint:** `https://theseus-staging.lithium.ventures/api/v1/analytics/tech-test/search?query=SEARCH_TERM`
+
+   **Method:** GET
+
+   **Description:** Search functionality is using this API endpoint to search and list the records on the page
